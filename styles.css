@@ -1,0 +1,83 @@
+/* ======================= font + var ======================= */
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Eagle Lake', cursive;
+}
+
+:root{
+    --black: #1b1a1a;
+    --gold: #AD974F;
+    --alt-gold: #8E793E;
+    --white: #EAEAEA;
+}
+
+section{
+    height: 100vh;
+}
+
+/* ======================= Nav Bar ======================= */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    max-height: 8vh;
+    background-color: var(--black);
+    text-decoration: none;
+}
+
+.logo img{
+    max-width: 10%;
+    padding-top: 4px;
+}
+a{
+    color: var(--gold);
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.nav li{
+    list-style: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.links .link:hover{
+    color: var(--alt-gold);
+}
+
+
+/* ======================= Background ======================= */
+.back{
+    background: linear-gradient(rgba(0,0,0,0.5), var(--alt-gold)),url("img/bulbul-ahmed-tJnMnFMHFm0-unsplash\ \(1\).jpg");
+    background-size: cover;
+    height: 92vh;
+}
+.back .text{
+    color: #cacaca;
+    text-align: center;
+    padding-top: 7vh;
+}
+.back .text h1{
+    font-size: 85px;
+}
+.back .text p{
+    font-size: 24px;
+    padding-top: 3vh;
+}
+
+
+
+
+/* ======================= Responsive ======================= */
+@media only screen and (max-width: 768px){
+    .nav a{
+        padding: 1vh;
+    }
+}
