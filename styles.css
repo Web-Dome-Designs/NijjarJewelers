@@ -78,7 +78,7 @@ a{
 /* ======================= Responsive ======================= */
 @media only screen and (max-width: 768px){
     .nav a{
-        padding: 1vh;
+        padding: 8px;
         font-size: 12px;
     }
     .back .text h1{
