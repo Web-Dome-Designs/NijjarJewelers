@@ -79,7 +79,8 @@ a{
 @media only screen and (max-width: 768px){
     .nav a{
         padding: 8px;
-        font-size: 12px;
+        font-size: 10px;
+        color: red;
     }
     .back .text h1{
         font-size: 36px;
